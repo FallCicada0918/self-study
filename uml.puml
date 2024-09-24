@@ -1,0 +1,618 @@
+@startuml
+class Class.chapter01.Hello {
++ {static} void main(String[])
+}
+
+class Class.chapter01.Student {
+~ String name
+~ int age
+~ int num
+~ void speak()
+}
+
+
+class chapter04.Java08_object_Static_2 {
++ {static} void main(String[])
+}
+
+class chapter04.User08 {
+~ {static} void test()
+}
+
+class chapter04.Java07_object_Method_Param_1 {
++ {static} void main(String[])
++ {static} void test(User)
+}
+
+class chapter04.User {
+~ String name
+}
+
+class chapter04.Java19_object {
++ {static} void main(String[])
+}
+
+class chapter04.User19 {
+- {static} User19 user19
++ {static} User19 getInstance()
+}
+
+
+class chapter04.Java18_object {
++ {static} void main(String[])
+}
+
+class chapter04.OuterClass {
+}
+class chapter04.OuterClass$InnerClass {
+}
+class chapter02.Java_Variable {
++ {static} void main(String[])
+}
+
+class chapter03.Java03_FlowControl {
++ {static} void main(String[])
+}
+
+class chapter02.Java04_Operator {
++ {static} void main(String[])
+}
+
+class chapter04.Java11_object_Instance {
++ {static} void main(String[])
+}
+
+class chapter04.User11 {
+~ String username
+~ void test()
+}
+
+
+class chapter04.Java08_object_Static_1 {
++ {static} void main(String[])
+}
+
+class chapter04.Test {
+~ String name
+~ {static} String sex
+~ void test()
+~ {static} void test1()
+}
+
+
+class chapter04.Java12_object_Extends {
++ {static} void main(String[])
+}
+
+class chapter04.Parent {
+~ String name
+~ void test()
+}
+
+
+class chapter04.Child {
+}
+class chapter04.Java02_object_2 {
++ {static} void main(String[])
+}
+
+class chapter04.Teacher {
+~ String name
+~ void teach()
+}
+
+
+class chapter04.Student {
+~ String name
+~ void study()
+}
+
+
+class chapter04.Java09_object_Package {
++ {static} void main(String[])
+}
+
+class Class.chapter1.eg_2.People {
+~ int height
+~ String ear
+~ void speak(String)
+}
+
+
+class Class.chapter1.eg_2.A {
++ {static} void main(String[])
+}
+
+class Class.chapter1.eg_1.Hello {
++ {static} void main(String[])
+}
+
+class chapter03.Java04_FlowControl_Test {
++ {static} void main(String[])
+}
+
+class chapter03.Java02_FlowControl {
++ {static} void main(String[])
+}
+
+class chapter04.Java17_object_Access_1 {
++ {static} void main(String[])
+}
+
+class chapter04.Person17 {
+~ void test()
+}
+
+class Class.chapter2.eg_3.Example2_3 {
++ {static} void main(String[])
+}
+
+class Class.chapter2.eg_2.Example2_2 {
++ {static} void main(String[])
+}
+
+class Class.chapter2.eg_1.Example2_1 {
++ {static} void main(String[])
+}
+
+class chapter04.Java06_object_Method {
++ {static} void main(String[])
+}
+
+class chapter04.User06 {
+~ String account
+~ String password
+~ boolean register()
+~ boolean login()
+}
+
+
+class chapter02.Java04_Operator_2 {
++ {static} void main(String[])
+}
+
+class Class.chapter2.Unicode {
++ {static} void main(String[])
+}
+
+class chapter02.Java_Datatype_3 {
++ {static} void main(String[])
+}
+
+class Class.chapter2.eg_5.Example2_5 {
++ {static} void main(String[])
+}
+
+class Class.chapter2.eg_4.Example2_4 {
++ {static} void main(String[])
+}
+
+class chapter01.ChristmasTree {
++ {static} void main(String[])
+}
+
+class chapter04.Java02_object_1 {
++ {static} void main(String[])
+}
+
+class chapter04.Dog {
+~ String color
+~ String name
+~ void run()
+}
+
+
+class chapter03.Java05_FlowControl {
++ {static} void main(String[])
+}
+
+class chapter04.Java14_object_2 {
++ {static} void main(String[])
+~ {static} void test(byte)
+~ {static} void test(short)
+~ {static} void test(char)
+~ {static} void test(int)
+}
+
+class chapter04.Java05_object_Field {
++ {static} void main(String[])
+}
+
+class chapter04.User05 {
+~ String name
+}
+
+class chapter04.Java14_object_1 {
++ {static} void main(String[])
+}
+
+class chapter04.User141 {
+}
+interface chapter02.Java_identifier {
+~ {static} String name
+}
+
+class chapter02.Datatype_1 {
++ {static} void main(String[])
+}
+
+class chapter02.Java_Datatype_1 {
++ {static} void main(String[])
+}
+
+class chapter02.Java04_Operator_3 {
++ {static} void main(String[])
+}
+
+class chapter04.Java21_object_Abstract {
++ {static} void main(String[])
+}
+
+abstract class chapter04.Person21 {
++ {abstract}void eat()
++ void test()
+}
+
+class chapter04.Child21 {
++ void eat()
+}
+
+class Class.Dome {
++ {static} void main(String[])
+}
+
+class Class.Point {
+~ int x
+~ void setXY(int,int)
+~ void calculateQuadrant()
+}
+
+
+class Class.Line {
+~ Point p1
+~ void setP1P2(Point,Point)
+~ void setP1(int,int)
+~ void setP2(int,int)
+~ void DrawLine()
+~ void calculateSlope()
+~ void calculateLength()
+}
+
+
+class chapter04.Java10_object_Import {
++ {static} void main(String[])
+}
+
+class chapter03.Java05_FlowControl_1 {
++ {static} void main(String[])
+}
+
+class chapter04.Java12_object_Extends_1 {
++ {static} void main(String[])
+}
+
+class chapter04.Parent1 {
+~ String name
+}
+
+class chapter04.Child1 {
+~ String name
+~ void test()
+}
+
+
+class chapter04.Java16_object_Recursion {
++ {static} void main(String[])
++ {static} int computeFactorial(int)
++ {static} int computeAP(int)
+}
+
+class chapter01.sum {
++ {static} void main(String[])
+}
+
+class chapter04.Java23_object_Enum {
++ {static} void main(String[])
+}
+
+class chapter04.MyCity {
++ String name
++ int code
++ {static} MyCity BEIJING
++ {static} MyCity SHANGHAI
+}
+
+enum chapter04.City {
++  BEIJING
++  SHANGHAI
++ String name
++ int code
+}
+
+class chapter01.HolleWorld {
++ {static} void main(String[])
+}
+
+class Class.FishGame.GameWin {
++ void launch()
++ {static} void main(String[])
+}
+
+class chapter04.Java04_object_class {
++ {static} void main(String[])
+}
+
+class chapter04.User04 {
+}
+class chapter04.Java08_object_Static {
++ {static} void main(String[])
+}
+
+class chapter04.Bird {
+~ {static} String type
+~ {static} void fly()
+}
+
+
+class chapter04.Chinese {
+~ String name
+~ String nationality
+}
+
+class chapter04.Java15_object_1 {
++ {static} void main(String[])
+}
+
+class chapter04.CCC {
+~ int i
+~ int sum()
+~ int getI()
+}
+
+
+class chapter04.DDD {
+~ int i
+~ int getI()
+}
+
+
+class chapter04.Java07_object_Method_Param {
++ {static} void main(String[])
+}
+
+class chapter04.User07 {
+~ void sayHello(String,int)
+~ void test(String)
+}
+
+class chapter04.Java20_object {
++ {static} void main(String[])
+}
+
+class chapter04.User20 {
++ String name
++ void test(String)
+}
+
+
+class chapter04.Java01_object {
++ {static} void main(String[])
+}
+
+class chapter04.Cooking {
+~ String name
+~ String type
+~ String food
+~ String relish
+~ void execute()
+}
+
+
+class chapter02.Java_Datatype {
++ {static} void main(String[])
+}
+
+class chapter04.Java14_object_3 {
++ {static} void main(String[])
+~ {static} void test(AAA)
+~ {static} void test(BBB)
+}
+
+class chapter04.AAA {
+}
+class chapter04.BBB {
+}
+class chapter02.Java_Datatype_2 {
++ {static} void main(String[])
+}
+
+class chapter04.Java22_object {
++ {static} void main(String[])
+}
+
+interface chapter04.USBInterface {
+}
+interface chapter04.USBSupply {
++ void powerSupply()
+}
+
+interface chapter04.USBReceive {
++ void powerReceive()
+}
+
+class chapter04.Computer {
++ USBReceive usb1
++ USBReceive usb2
++ void powerSupply()
+}
+
+
+class chapter04.Litte_Light {
++ void powerReceive()
+}
+
+class chapter03.Java01_FlowControl {
++ {static} void main(String[])
+}
+
+class chapter03.Java04_03 {
++ {static} void main(String[])
+}
+
+class chapter04.Java02_object {
++ {static} void main(String[])
+}
+
+class chapter04.Animal {
+~ String type
+~ String name
+~ void run()
+}
+
+
+class chapter04.Java13_object {
++ {static} void main(String[])
+}
+
+class chapter04.Person {
+~ void testPerson()
+}
+
+class chapter04.Boy {
+~ void testPerson()
+~ void testBoy()
+}
+
+class chapter04.Girl {
+~ void testGirl()
+}
+
+class chapter04.Java24_object {
++ {static} void main(String[])
+}
+
+interface chapter04.fly {
++ void fly()
+}
+
+class chapter04.Bird24 {
++ void fly()
+}
+
+abstract class chapter04.Person24 {
++ {abstract}String name()
+}
+
+class chapter04.Me {
++ void sayHello(Person24)
+}
+
+class chapter03.Java06_FlowControl_Test {
++ {static} void main(String[])
+}
+
+class chapter04.Java03_object {
++ {static} void main(String[])
+}
+
+class chapter04.Java17_object_Access {
+- String name
++ String username
+~ String sex
++ {static} void main(String[])
+}
+
+
+class chapter04.User17 {
+- String name
++ String username
+~ String sex
+# int age
+~ void test()
+}
+
+
+class chapter04.child17 {
+~ void test()
+}
+
+class chapter02.Java04_Operator_4 {
++ {static} void main(String[])
+}
+
+class chapter04.Java12_object_Extends_2 {
++ {static} void main(String[])
+}
+
+class chapter04.Parent2 {
+~ String username
+}
+
+class chapter04.Child2 {
+}
+class chapter02.Java04_Operator_1 {
++ {static} void main(String[])
+}
+
+class chapter04.Java15_object {
++ {static} void main(String[])
+}
+
+class chapter04.Parent15 {
+~ String name
+~ void test()
+}
+
+
+class chapter04.Child15 {
+~ String name
+~ void test()
+}
+
+
+class chapter04.Java25_object {
++ {static} void main(String[])
++ {static} boolean login(User25)
+}
+
+class chapter04.User25 {
+- String account
+- String password
++ void login()
++ void setAccount(String)
++ void setpassword(String)
++ String getAccount()
+}
+
+
+class chapter04.Java14_object {
++ {static} void main(String[])
+}
+
+class chapter04.User14 {
+~ void login(String,String)
+~ void login(int)
+~ void login(String)
+}
+
+
+
+chapter04.OuterClass +.. chapter04.OuterClass$InnerClass
+chapter04.Parent <|-- chapter04.Child
+javax.swing.JFrame <|-- chapter01.ChristmasTree
+chapter04.Person21 <|-- chapter04.Child21
+chapter04.Parent1 <|-- chapter04.Child1
+Class.FishGame.JFrame <|-- Class.FishGame.GameWin
+chapter04.CCC <|-- chapter04.DDD
+chapter04.AAA <|-- chapter04.BBB
+chapter04.USBInterface <|-- chapter04.USBSupply
+chapter04.USBInterface <|-- chapter04.USBReceive
+chapter04.USBSupply <|.. chapter04.Computer
+chapter04.USBReceive <|.. chapter04.Litte_Light
+chapter04.Person <|-- chapter04.Boy
+chapter04.Person <|-- chapter04.Girl
+chapter04.fly <|.. chapter04.Bird24
+chapter04.User17 <|-- chapter04.child17
+chapter04.Parent2 <|-- chapter04.Child2
+chapter04.Parent15 <|-- chapter04.Child15
+@enduml
