@@ -6,7 +6,7 @@ public class Java03_Collection_List {
     public static void main(String[] args) {
 
         //TODO 集合 - Collection - List
-        //ArrayList : Array + List
+        // ArrayList : Array + List
         //TODO List : 列表，清单
         //      按照数据插入顺序进行存储
         //TODO Array : 数组，阵列
